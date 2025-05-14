@@ -1,78 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BitBloom - User Manual</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>คู่มือใช้งาน BitBloom</title>
   <style>
-    body { font-family: sans-serif; margin: 2rem; line-height: 1.6; background-color: #fefefe; color: #333; }
-    h1, h2 { color: #d6336c; }
-    code { background: #eee; padding: 0.2rem 0.4rem; border-radius: 4px; }
-    .section { margin-bottom: 2rem; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #e91e63;
+    }
+    .section {
+      margin-bottom: 32px;
+    }
   </style>
 </head>
 <body>
-  <h1>✨ BitBloom - User Manual ✨</h1>
+
+  <h1>🌸 BitBloom – คู่มือการใช้งาน ✨</h1>
 
   <div class="section">
-    <h2>🌿 Overview</h2>
-    <p>BitBloom is a habit tracking app that gamifies your daily routines. Users can either select habits manually or let the app surprise them with a random challenge. Completing habits increases your streak and unlocks badges. Skipping resets the streak.</p>
+    <h2>🌿 ภาพรวม</h2>
+    <p>
+      <strong>BitBloom</strong> เป็นแอปสร้างนิสัย (Habit Tracker) ที่เพิ่มความสนุกด้วยการสุ่มภารกิจให้ทำในแต่ละวัน 
+      ผู้ใช้สามารถเลือกนิสัยที่ต้องการทำเอง หรือให้แอปสุ่มภารกิจให้โดยอัตโนมัติ 
+      เมื่อทำสำเร็จจะเพิ่มจำนวน streak และปลดล็อก badge ต่าง ๆ หากกดข้าม streak จะถูกรีเซ็ตเหลือ 0
+    </p>
   </div>
 
   <div class="section">
-    <h2>📅 Home Tab</h2>
+    <h2>📅 แถบหน้าแรก (Home Tab)</h2>
     <ul>
-      <li><strong>+ Create your habit</strong>: Add a new habit with a title, description, and category.</li>
-      <li><strong>Random your today's Habit</strong>: Let the app surprise you with a random habit to complete.</li>
-      <li>If completed, tap <code>"✔️ Done!"</code> to increase your streak.</li>
-      <li>If skipped, tap <code>"Skip"</code> to reset your streak to 0.</li>
+      <li><strong>+ Create your habit:</strong> เพิ่ม habit ใหม่ด้วยการระบุชื่อ คำอธิบาย และหมวดหมู่</li>
+      <li><strong>Random your today's Habit:</strong> ให้แอปสุ่มภารกิจประจำวันให้คุณโดยอัตโนมัติ</li>
+      <li>ถ้าทำสำเร็จ ให้กดปุ่ม <strong>✔️ Done!</strong> เพื่อเพิ่ม streak</li>
+      <li>ถ้าต้องการข้าม ให้กด <strong>Skip</strong> เพื่อรีเซ็ต streak กลับเป็น 0</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>📝 Habits Tab</h2>
-    <p>View all your created habits by category. Filter habits and track their individual progress.</p>
+    <h2>📝 แถบ Habit</h2>
+    <p>ดูรายการ habit ที่คุณสร้างไว้ทั้งหมด แบ่งตามหมวดหมู่ กรองหมวด และติดตามความคืบหน้าได้</p>
   </div>
 
   <div class="section">
-    <h2>✨ Badges Tab</h2>
-    <p>Earn badges by completing specific actions such as:</p>
+    <h2>✨ แถบ Badge</h2>
+    <p>รับ badge ได้เมื่อคุณทำเงื่อนไขครบ เช่น:</p>
     <ul>
-      <li>Completing 10 days streak</li>
-      <li>Finishing habits in a specific category like "จิตใจ" or "พัฒนาตัวเอง"</li>
-      <li>Achieving overall habit completion goals</li>
+      <li>ทำ streak ครบ 10 วัน</li>
+      <li>ทำ habit ในหมวดเฉพาะ เช่น "จิตใจ" หรือ "พัฒนาตัวเอง"</li>
+      <li>ทำ habit สำเร็จรวมครบตามจำนวนที่กำหนด</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>📊 Stats Tab</h2>
+    <h2>📊 แถบ Stats</h2>
     <ul>
-      <li><strong>No-skip streak</strong>: Shows how many days in a row you've completed at least one habit without skipping.</li>
-      <li><strong>Most achieved habit</strong>: Displays the most completed habit category today.</li>
-      <li><strong>Most skipped habit</strong>: Displays the category you've skipped the most today.</li>
+      <li><strong>No-skip streak:</strong> แสดงจำนวนวันที่คุณทำ habit โดยไม่กดข้าม</li>
+      <li><strong>Most achieved habit:</strong> หมวดที่คุณทำสำเร็จมากที่สุดวันนี้</li>
+      <li><strong>Most skipped habit:</strong> หมวดที่คุณข้ามมากที่สุดวันนี้</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>⚙️ Settings Tab</h2>
+    <h2>⚙️ แถบ Settings</h2>
     <ul>
-      <li><strong>Dark Mode Toggle</strong>: Switch between light and dark themes.</li>
-      <li><strong>User Manual Link</strong>: Opens this guide in your default browser.</li>
+      <li><strong>เปิดโหมดมืด:</strong> สลับธีมสว่าง/มืด</li>
+      <li><strong>ลิงก์คู่มือการใช้งาน:</strong> เปิดหน้านี้ผ่านเบราว์เซอร์</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>🔧 Technical Notes</h2>
+    <h2>🔧 หมายเหตุด้านเทคนิค</h2>
     <ul>
-      <li>Habits and streaks are persisted using <code>@AppStorage</code>.</li>
-      <li>Randomized habits are drawn from a remaining pool per day.</li>
-      <li>The app uses SwiftUI with MVVM architecture.</li>
+      <li>habit และ streak ถูกเก็บด้วย <code>@AppStorage</code></li>
+      <li>habit ที่สุ่มจะดึงจากรายการที่ยังไม่ทำวันนี้</li>
+      <li>แอปสร้างด้วย SwiftUI โดยใช้ MVVM architecture</li>
     </ul>
   </div>
 
-  <footer>
-    <hr />
-    <p style="font-size: 0.9rem; color: #777;">Developed by Team BitBloom — 2025</p>
-  </footer>
 </body>
 </html>
+
