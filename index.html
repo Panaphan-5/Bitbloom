@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BitBloom - User Manual</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; line-height: 1.6; background-color: #fefefe; color: #333; }
+    h1, h2 { color: #d6336c; }
+    code { background: #eee; padding: 0.2rem 0.4rem; border-radius: 4px; }
+    .section { margin-bottom: 2rem; }
+  </style>
+</head>
+<body>
+  <h1>✨ BitBloom - User Manual ✨</h1>
+
+  <div class="section">
+    <h2>🌿 Overview</h2>
+    <p>BitBloom is a habit tracking app that gamifies your daily routines. Users can either select habits manually or let the app surprise them with a random challenge. Completing habits increases your streak and unlocks badges. Skipping resets the streak.</p>
+  </div>
+
+  <div class="section">
+    <h2>📅 Home Tab</h2>
+    <ul>
+      <li><strong>+ Create your habit</strong>: Add a new habit with a title, description, and category.</li>
+      <li><strong>Random your today's Habit</strong>: Let the app surprise you with a random habit to complete.</li>
+      <li>If completed, tap <code>"✔️ Done!"</code> to increase your streak.</li>
+      <li>If skipped, tap <code>"Skip"</code> to reset your streak to 0.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📝 Habits Tab</h2>
+    <p>View all your created habits by category. Filter habits and track their individual progress.</p>
+  </div>
+
+  <div class="section">
+    <h2>✨ Badges Tab</h2>
+    <p>Earn badges by completing specific actions such as:</p>
+    <ul>
+      <li>Completing 10 days streak</li>
+      <li>Finishing habits in a specific category like "จิตใจ" or "พัฒนาตัวเอง"</li>
+      <li>Achieving overall habit completion goals</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📊 Stats Tab</h2>
+    <ul>
+      <li><strong>No-skip streak</strong>: Shows how many days in a row you've completed at least one habit without skipping.</li>
+      <li><strong>Most achieved habit</strong>: Displays the most completed habit category today.</li>
+      <li><strong>Most skipped habit</strong>: Displays the category you've skipped the most today.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>⚙️ Settings Tab</h2>
+    <ul>
+      <li><strong>Dark Mode Toggle</strong>: Switch between light and dark themes.</li>
+      <li><strong>User Manual Link</strong>: Opens this guide in your default browser.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔧 Technical Notes</h2>
+    <ul>
+      <li>Habits and streaks are persisted using <code>@AppStorage</code>.</li>
+      <li>Randomized habits are drawn from a remaining pool per day.</li>
+      <li>The app uses SwiftUI with MVVM architecture.</li>
+    </ul>
+  </div>
+
+  <footer>
+    <hr />
+    <p style="font-size: 0.9rem; color: #777;">Developed by Team BitBloom — 2025</p>
+  </footer>
+</body>
+</html>
